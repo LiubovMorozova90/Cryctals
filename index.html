@@ -5,6 +5,7 @@
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -25,7 +26,73 @@
     <!-- Конец -->
 
     <div class="main">
-        В данном блоке размещается верстка
+        <header class="_header">
+            <div class="header_container">
+                <div class="header_navigation">
+                    <span class="header_navigation_line"></span>
+                    <span class="header_navigation_line"></span>
+                    <span class="header_navigation_line"></span>
+                </div>
+                <p class="header_title">Free shipping on orders over $75</p>
+                <div class="header_opportunities">
+                    <div class="header_opportunities_search">
+                        <form>
+                            <input type="text" placeholder="">
+                            <button type="submit"><img src="img/search.png"></button>
+                        </form>
+                    </div>
+                    <div class="header_opportunities_settings">
+                        <img class="header_opportunities_settings_img" src="img/settings.png" title="">
+                    </div>                
+                </div> 
+            </div>            
+        </header>
+        <main class="_main">
+            <section class="main_title">
+                <div class="main_title_container">
+                    <p class="main_tile_heading">Tools <br> for everyday <br> magic.</p>
+                    <button class="main_tile_btn">Shop <br> now</button>
+                </div>                
+            </section>
+            <section class="marquee">
+                <marquee direction="right">
+                    <img src="img/Crystals.com.svg">
+                    Crystals.com Crystals.com Crystals.com Crystals.com Crystals.com Crystals.com Crystals.com 
+                    <img src="img/Crystals.com.svg">
+                    Crystals.com Crystals.com Crystals.com Crystals.com Crystals.com Crystals.com Crystals.com 
+                    <img src="img/Crystals.com.svg">
+                    Crystals.com Crystals.com Crystals.com Crystals.com Crystals.com Crystals.com Crystals.com 
+                    <img src="img/Crystals.com.svg">
+                    Crystals.com Crystals.com Crystals.com Crystals.com Crystals.com Crystals.com Crystals.com 
+                    <img src="img/Crystals.com.svg">
+                </marquee>
+            </section>
+            <section class="about-shop">
+                <div class="about-shop_container">
+                    <div class="about-shop_title">
+                        <p class="about-shop_title_heading">The world’s finest crystals, ethically sourced and hand 
+                            selected for their power to guide, enhance and protect our everyday lives.</p>
+                        <button class="about-shop_title_btn">Shop all</button>
+                    </div>
+                    <div class="about-shop_wrap">
+                        <input type="radio" name="slides" id="point1" checked>
+                        <input type="radio" name="slides" id="point2">
+                        <input type="radio" name="slides" id="point3">
+                        <div class="slider">
+                            <div class="slides img1"></div>
+                            <div class="slides img2"></div>
+                            <div class="slides img3"></div>
+                        </div>
+                        <div class="control">
+                            <label for="point1"></label>
+                            <label for="point2"></label>
+                            <label for="point3"></label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
     </div>
 
 </body>
