@@ -1,0 +1,87 @@
+.subscribe {
+    background-color: #FFFFFF;
+    border-top: solid 1px #EAC1BF;
+    z-index: 4;
+    padding-top: 195px;
+    padding-bottom: 157px;
+}
+
+.subscribe-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 246px;
+    width: 1072px;
+    margin: 0 auto;
+}
+
+.subscribe_info {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background: url('../img/subscribe-gif.gif');
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 507px;
+    height: 530px;
+}
+
+.subscribe_info_btn {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+    padding: 14px 32px;
+    margin-bottom: 32px;
+}
+
+.subscribe_comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 232.4px;
+}
+
+.subscribe_comment_item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.subscribe_comment_item_value {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.subscribe_comment_item_autor {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.subscribe_comment_delimiter {
+    margin-top: 20px;
+    margin-bottom: 37px;
+}

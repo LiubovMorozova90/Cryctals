@@ -1,0 +1,61 @@
+.gifts {
+    background-color: #FFFFFF;
+    border-bottom: solid 1px #EAC1BF;
+    padding-top: 130px;
+    padding-bottom: 150px;
+}
+.gifts_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.gifts_title {
+    font-family: 'Ogg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 116px;
+    line-height: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.gifts_list {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 100px;
+}
+
+.gifts_value {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+}
+
+.gifts_value_heading {
+    font-family: 'Ogg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 48px;
+    cursor: pointer;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.gifts_value_subheading {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    cursor: pointer;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

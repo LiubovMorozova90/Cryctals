@@ -1,0 +1,17 @@
+@import url(./main_title.css);
+@import url(./main-marquee.css);
+@import url(./main-about_shop.css);
+@import url(./main-subscribe.css);
+@import url(./main-popular_crystals.css);
+@import url(./main-intention.css);
+@import url(./main-gifts.css);
+@import url(./main-crystal_club.css);
+@import url(./main-review.css);
+@import url(./main-gallery.css);
+
+hr {
+    position: relative;
+    z-index: 4;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,94 @@
+._header {
+    background-color: #FFFFFF;
+}
+
+.header_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1366px;
+    padding-top: 24px;
+    padding-bottom: 29px;
+    margin: 0 auto;
+}
+
+.header_navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    cursor: pointer;
+    border-radius: 32px;
+    width: 28px;
+}
+
+.header_navigation_line {
+    background-color: #111111;
+    height: 2px;
+}
+
+.header_title {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.header_opportunities {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.header_opportunities_search {
+    background: #FFFFFF;
+}
+
+.header_opportunities_search form {
+    position: relative;
+    width: 0px;
+    height: 32px;
+    margin: 0 auto;    
+}
+
+.header_opportunities_search input {
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    background: transparent;
+    transition: .4s cubic-bezier(0, 0.8, 0, 1);
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+    height: 100%;
+    width: 0;
+    top: 0;
+    right: 0;
+    padding: 0 42px 0 15px;
+}
+
+.header_opportunities_search input:focus {
+    border-bottom: 2px solid #EAC1BF;
+    z-index: 1;
+    width: 200px;
+}
+.header_opportunities_search button {
+    background: #FFFFFF;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    height: 32px;
+    width: 42px;
+}
+
+.header_opportunities_settings {
+    cursor: pointer;
+}

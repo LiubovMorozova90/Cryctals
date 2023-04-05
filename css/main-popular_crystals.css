@@ -1,0 +1,134 @@
+.popular-crystals {
+    background-color: #FFFFFF;
+    border-bottom: solid 1px #EAC1BF;
+    padding-top: 161px;
+    padding-bottom: 161px;
+}
+
+.popular-crystals_container {
+    display: flex;
+    justify-content: space-between;
+    width: 1341px;
+    margin: 0 auto;
+}
+
+.popular-crystals_model {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular-crystals_model_titel {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.popular-crystals_model_type {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 25px;
+    margin-bottom: 43px;
+}
+
+.popular-crystals_model_type_item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.popular-crystals_model_type_value {
+    font-family: 'Ogg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 48px;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.popular-crystals_model_btn {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    background: url(../img/popular-model-btn.png) no-repeat;
+    border: none;
+    cursor: pointer;
+    width: 252.6px;
+    height: 48px;
+    padding: 14px 32px;
+}
+
+.popular-crystals_example {
+    position: relative;
+    display: flex;
+}
+
+.popular-crystals_example div:first-child {
+    margin-right: 24px;
+}
+
+.popular-crystals_example_value {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #EAC1BF;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    z-index: 4;
+    width: 347.58px;
+    height: 542px;
+    padding: 41px 44px;
+}
+
+.popular-crystals_example_heading {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    z-index: 10;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.popular-crystals_example_price {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.sold-out {
+    text-transform: uppercase;
+}
+
+.popular-crystals_example_img {
+    position: absolute;
+    z-index: 3;
+    top: -310px;
+    left: 120px;
+}

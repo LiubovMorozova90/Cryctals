@@ -1,0 +1,14 @@
+.marquee {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    border-top: solid 1px #EAC1BF;
+    border-bottom: solid 1px #EAC1BF;
+    padding-top: 33px;
+    padding-bottom: 33px;
+}

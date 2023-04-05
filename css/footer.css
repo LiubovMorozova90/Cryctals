@@ -1,0 +1,80 @@
+.footer {
+    background: url(../img/footer.png) center/cover no-repeat;
+    padding-bottom: 76px;
+}
+
+.footer_container {
+    display: flex;
+    flex-direction: column;
+    width: 1398px;
+    margin: 0 auto;
+}
+
+.website-link {
+    display: flex;
+    align-items: center;   
+    margin: 0 auto;
+}
+
+.website-link_title {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 137px;
+    letter-spacing: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 70px; 
+    row-gap: 28px; 
+    width: 907px;
+    margin-top: 104px;
+    margin-bottom: 25px;
+}
+
+.footer-menu_item {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.footer-copyright {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-copyright_year {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.footer-copyright_privat-policy {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

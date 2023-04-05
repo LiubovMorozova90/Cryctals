@@ -1,0 +1,42 @@
+.gallery {
+    background-color: #FFFFFF;
+    padding-bottom: 80px;
+}
+
+.gallery_container {
+    display: flex;
+    flex-direction: column;
+    width: 1398px;
+    margin: 0 auto;
+}
+
+.gallery_link {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 26px;
+}
+
+.gallery_link p{
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.gallery_link_name,
+.gallery_link_hashtag {
+    color: #000000;
+}
+
+.gallery_photo {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    cursor: pointer;
+}

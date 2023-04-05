@@ -1,0 +1,43 @@
+.review {
+    background-color: #FFFFFF;
+    padding-top: 31px;
+    padding-bottom: 75px;
+}
+
+.review_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1420px;
+    margin: 0 auto;
+}
+
+.review_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review_title_heading {
+    font-family: 'Ogg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 72px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.review_title_heading_autor{
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}

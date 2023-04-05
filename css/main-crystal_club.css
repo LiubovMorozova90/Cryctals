@@ -1,0 +1,70 @@
+.crystal-club {
+    background: url(../img/crystal-club.png) center/cover no-repeat;
+    border-bottom: solid 1px #EAC1BF;
+    padding-top: 63px;
+    padding-bottom: 63px;
+}
+
+.crystal-club_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 67px;
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.crystal-club_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.crystal-club_info_title {
+    font-family: 'Ogg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.crystal-club_info_item {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.crystal-club_info_btn {
+    font-family: 'Basis Grotesque Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #000000;
+    border: solid 2px #000000;
+    border-radius: 32px;
+    cursor: pointer;
+    width: 168.74px; 
+    height: 48px;
+}
+
+.crystal-club_info_btn:hover {
+    color: #000000;
+    background-color: #e6e6e6;
+    transition: 0.1s;
+}
+
+.crystal-club_img {
+    display: flex;
+    gap: 24px;
+}
